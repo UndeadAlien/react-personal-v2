@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+    header {
+        .navbar__logo {
+            display: none;
+        }
+    }
+
+    .project__container {
+        border: 1px solid lime;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    header {
+        display: none;
+    }
+
+    .mobile__navbar {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 1em;
+        font-size: 2.5em;
+        cursor: pointer;
+    }
+
+    .project__container {
+        border: 1px solid yellow;
+
+        .right__half {
+            flex: 100%;
+            background-image: url('../../Projects/img/projects.jpg');
+            color: white;
+
+            background-size: 100% 100%;
+
+            .project__links {
+                ul li a {
+                    color: white;
+                }
+            }
+        }
+
+        .image {
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .left {
+        left: 1em;
+    }
+
+    .right {
+        right: 1em;
+    }
+
+    .name {
+        margin-top: 75%;
+    }
+}

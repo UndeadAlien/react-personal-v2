@@ -1,0 +1,102 @@
+.project__container {
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid rgba(0, 0, 0, .7);
+    background:rgba(0, 0, 0, .3);
+    
+
+    &:hover {
+        .right__half {
+            ul li {
+                color: #149651;
+            }
+        }
+
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+}
+
+.project__splitter {
+    display: flex;
+    flex-wrap: wrap;
+
+    .left__half {
+        flex: 50%;
+
+        .image {
+            width: 100%;
+            height: 100%;
+            background-image: url('../img/projects.jpg');
+            background-size: cover;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-color: rgba(0, 0, 0, .75);
+            background-blend-mode: multiply;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                transition: all 0.3s ease-in-out;
+                background-color: rgba(0, 0, 0, 0);
+            }
+        }
+    }
+
+    .right__half {
+        flex: 50%;
+
+        div:not(:last-child) {
+            padding: .5em;
+        }
+
+        .project__title {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin: .2em;
+        }
+
+        .project__description {
+            text-align: center;
+
+            .box {
+                border: 1px solid rgba(0, 0, 0, .7);
+                background:rgba(0, 0, 0, .3);
+            }
+            
+        }
+
+        .project__languages {
+            font-weight: bold;
+
+            ul {
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+
+        .project__links {
+            
+            ul {
+                display: flex;
+                justify-content: center;
+                transition: all 0.3s ease-in-out;
+                padding: .5em;
+
+                li {
+                    padding: 0 1em;
+                    font-size: 1.5em;
+
+                    a {
+                        display: block;
+
+                        &:hover {
+                            color: lime;
+                            transform: translateY(-2px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+

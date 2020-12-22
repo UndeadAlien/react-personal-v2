@@ -1,0 +1,82 @@
+.mobile__navbar {
+  display: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header img {
+  width: 50px;
+}
+
+header .navbar__logo {
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  line-height: 3em;
+}
+
+header .navbar__logo span {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li {
+  padding: 1em;
+}
+
+header ul li:active {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid lime;
+}
+
+header ul li a {
+  padding: 0 1em;
+}
+
+header .navbar__button {
+  text-align: center;
+  padding: 1em 0;
+  width: 10em;
+  border: 2px solid lime;
+}
+
+header .navbar__button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+.header__container {
+  text-align: center;
+  padding: 1em;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5em;
+}
+/*# sourceMappingURL=NavBar.css.map */

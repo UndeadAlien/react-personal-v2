@@ -1,0 +1,115 @@
+.project__container {
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.project__container:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project__container:hover .right__half ul li {
+  color: #149651;
+}
+
+.project__splitter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project__splitter .left__half {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.project__splitter .left__half .image {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/projects.jpg");
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.75);
+  background-blend-mode: multiply;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.project__splitter .left__half .image:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.project__splitter .right__half {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.project__splitter .right__half div:not(:last-child) {
+  padding: .5em;
+}
+
+.project__splitter .right__half .project__title {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: .2em;
+}
+
+.project__splitter .right__half .project__description {
+  text-align: center;
+}
+
+.project__splitter .right__half .project__description .box {
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.project__splitter .right__half .project__languages {
+  font-weight: bold;
+}
+
+.project__splitter .right__half .project__languages ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.project__splitter .right__half .project__links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: .5em;
+}
+
+.project__splitter .right__half .project__links ul li {
+  padding: 0 1em;
+  font-size: 1.5em;
+}
+
+.project__splitter .right__half .project__links ul li a {
+  display: block;
+}
+
+.project__splitter .right__half .project__links ul li a:hover {
+  color: lime;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+/*# sourceMappingURL=Projects.css.map */
