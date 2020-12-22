@@ -24,6 +24,14 @@ yarn-error.log*
 
 
 # Firebase Hosting
+.firebase
 .firebaserc
 firebase-debug.log
 firebase.json
+
+# Github
+.github/workflows
+
+.eslingcache
+
+/index.js
