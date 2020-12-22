@@ -25,6 +25,6 @@ yarn-error.log*
 
 /.firebase
 /.github/workflows
-firebase.json*
-.firebaserc*
-.eslintcache*
+firebase.json
+*.firebaserc
+*.eslintcache
