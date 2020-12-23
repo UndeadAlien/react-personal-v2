@@ -31,6 +31,7 @@ header .navbar__logo {
   height: 3em;
   text-align: center;
   line-height: 3em;
+  color: #149651;
 }
 
 header .navbar__logo span {
@@ -52,7 +53,7 @@ header ul li:active {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid lime;
+  border-bottom: 2px solid #149651;
 }
 
 header ul li a {
@@ -63,7 +64,7 @@ header .navbar__button {
   text-align: center;
   padding: 1em 0;
   width: 10em;
-  border: 2px solid lime;
+  border: 2px solid #149651;
 }
 
 header .navbar__button:hover {

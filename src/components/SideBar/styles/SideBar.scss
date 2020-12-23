@@ -43,7 +43,7 @@
 
         &:hover,
         &:focus {
-            color: var($LIGHT_GREEN);
+            color: #149651;
             transition: all 0.3s ease-in-out;
             transform: translateY(-5px);
         }
@@ -62,7 +62,7 @@
 
         &:hover,
         &:focus {
-            color: var($LIGHT_GREEN);
+            color: #149651;
             cursor: pointer;
             transform: translateY(-3px);
             transition: all 0.3s ease-in-out;

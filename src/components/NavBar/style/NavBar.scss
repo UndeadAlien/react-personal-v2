@@ -10,7 +10,6 @@ header {
     justify-content: space-between;
     border: 1px solid rgba(0, 0, 0, .7);
     background:rgba(0, 0, 0, .3);
-
     position: sticky;
     top: 0;
 
@@ -24,6 +23,7 @@ header {
         height: 3em;
         text-align: center;
         line-height: 3em;
+        color: #149651;
         
         span {
             font-weight: bold;
@@ -41,7 +41,7 @@ header {
                 border-top: none;
                 border-left: none;
                 border-right: none;
-                border-bottom: 2px solid lime;
+                border-bottom: 2px solid #149651;
             }
         }
 
@@ -55,8 +55,7 @@ header {
         text-align: center;
         padding: 1em 0;
         width: 10em;
-
-        border: 2px solid lime;
+        border: 2px solid #149651;
 
         &:hover {
             background: white;

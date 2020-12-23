@@ -32,6 +32,4 @@ firebase.json
 # Github
 .github/workflows
 
-.eslingcache
-
 /index.js

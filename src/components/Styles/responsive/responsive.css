@@ -3,7 +3,15 @@
     display: none;
   }
   .project__container {
-    border: 1px solid lime;
+    border: 1px solid #149651;
+  }
+  .project__container .right__half {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  .wrapper {
+    max-width: 87%;
   }
 }
 
@@ -35,6 +43,9 @@
   }
   .project__container .image {
     display: none;
+  }
+  .wrapper {
+    max-width: 84%;
   }
 }
 

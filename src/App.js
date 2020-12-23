@@ -6,14 +6,16 @@ import SideBar from './components/SideBar/SideBar';
 
 import './components/Styles/responsive/responsive.css'
 import './components/Styles/imports/imports.css'
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
     <>
       <Router>
+        <NavBar />
         <Hero />
         <Projects />
-        <SideBar />
+        <SideBar /> 
       </Router>
     </>
   );

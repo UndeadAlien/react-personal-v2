@@ -11,7 +11,7 @@
   height: 90px;
   width: 1px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #fff;
 }
 
 .left {
@@ -52,7 +52,7 @@
 }
 
 .left a:hover, .left a:focus {
-  color: lime;
+  color: #149651;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   -webkit-transform: translateY(-5px);
@@ -64,7 +64,7 @@
 }
 
 .right h5 {
-  color: white;
+  color: #fff;
   letter-spacing: 0.1em;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
@@ -74,7 +74,7 @@
 }
 
 .right h5:hover, .right h5:focus {
-  color: lime;
+  color: #149651;
   cursor: pointer;
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
