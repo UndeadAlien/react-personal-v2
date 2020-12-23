@@ -1,0 +1,38 @@
+.footer__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__content {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__creator {
+  margin: auto;
+}
+
+.header__creator p {
+  font-size: .9em;
+  letter-spacing: .2em;
+  margin-bottom: 0;
+}
+
+.header__creator span {
+  color: #149651;
+}
+/*# sourceMappingURL=Footer.css.map */

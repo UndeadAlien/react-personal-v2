@@ -7,6 +7,7 @@ import SideBar from './components/SideBar/SideBar';
 import './components/Styles/responsive/responsive.css'
 import './components/Styles/imports/imports.css'
 import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <Projects />
         <SideBar /> 
+        <Footer />
       </Router>
     </>
   );

@@ -1,0 +1,30 @@
+@mixin DEBUG {
+    border: 1px solid lime;
+}
+
+.footer__container {
+    width: 100%;
+    display: flex;
+}
+
+.footer__content {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__creator {
+    margin: auto;
+
+    p {
+        font-size: .9em;
+        letter-spacing: .2em;
+        margin-bottom: 0;
+    }
+
+    span {
+        color: #149651;
+    }
+}

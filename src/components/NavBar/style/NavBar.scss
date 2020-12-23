@@ -18,16 +18,23 @@ header {
     }
 
     .navbar__logo {
-        border: 2px solid rgba(0, 0, 0, .7);
+        border: 2px solid #149651;
         width: 3em;
         height: 3em;
         text-align: center;
         line-height: 3em;
-        color: #149651;
+        color: #fff;
         
         span {
             font-weight: bold;
             font-size: 2em;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            color: #149651;
+            border: 2px solid #fff;
         }
     }
 
@@ -58,8 +65,8 @@ header {
         border: 2px solid #149651;
 
         &:hover {
-            background: white;
-            color: black;
+            color: #149651;
+            border: 2px solid #fff;
             cursor: pointer;
         }
     }
