@@ -1,3 +1,9 @@
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    max-width: 85%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   header .navbar__logo {
     display: none;
@@ -11,7 +17,7 @@
             flex: 100%;
   }
   .wrapper {
-    max-width: 87%;
+    max-width: 80%;
   }
 }
 
@@ -45,7 +51,7 @@
     display: none;
   }
   .wrapper {
-    max-width: 84%;
+    max-width: 75%;
   }
 }
 

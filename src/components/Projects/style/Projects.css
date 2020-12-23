@@ -33,20 +33,11 @@
 }
 
 .project__container {
-  text-align: center;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border: 2px solid rgba(0, 0, 0, 0.7);
   background: rgba(0, 0, 0, 0.3);
-}
-
-.project__container:hover {
-  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.project__container:hover .right__half ul li {
-  color: #149651;
+  margin-bottom: 3em;
 }
 
 .project__splitter {
@@ -66,7 +57,6 @@
 .project__splitter .left__half .image {
   width: 100%;
   height: 100%;
-  background-image: url("../img/projects.jpg");
   background-size: cover;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -95,7 +85,8 @@
 .project__splitter .right__half .project__title {
   font-weight: bold;
   font-size: 1.5em;
-  margin: .2em;
+  margin-top: .5em;
+  text-align: center;
 }
 
 .project__splitter .right__half .project__description {
@@ -142,8 +133,10 @@
 }
 
 .project__splitter .right__half .project__links ul li a:hover {
-  color: lime;
+  color: #149651;
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 /*# sourceMappingURL=Projects.css.map */

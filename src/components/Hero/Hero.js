@@ -5,7 +5,7 @@ import './style/Hero.css'
 const Hero = () => {
     return (
         <>
-            <div className="hero__wrapper">
+            <div className="hero__wrapper" id="hero">
                 <div className="wrapper">
                     <div className="hero__content">
                         <h1 className="name">Connor Hutchinson</h1>

@@ -1,23 +1,25 @@
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom'
-import Projects from './components/Projects/Projects';
-import Hero from './components/Hero/Hero';
-import SideBar from './components/SideBar/SideBar';
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
+import Projects from './components/Projects/Projects';
+import About from './components/About/About';
+import Home from './pages/Home';
+
+import './App.css';
 import './components/Styles/responsive/responsive.css'
 import './components/Styles/imports/imports.css'
+import Resume from './components/Resume/Resume';
 import NavBar from './components/NavBar/NavBar';
-import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
     <>
       <Router>
-        <NavBar />
-        <Hero />
-        <Projects />
-        <SideBar /> 
-        <Footer />
+        <Switch>
+          <Route path="/" component={Home} exact />
+          <Route path="/resume" component={Resume} exact />
+        </Switch>
       </Router>
     </>
   );
