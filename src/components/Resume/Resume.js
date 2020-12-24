@@ -27,7 +27,7 @@ const Resume = () => {
             <div className="resume__container">
                 <div className="wrapper">
                     <div className="resume__content">
-                        <img src="/images/information/connorhutchinson_12-17-2020.png" alt="" />
+                        <img src="/images/information/resume.png" alt="" />
                     </div>
                 </div>
             </div>
