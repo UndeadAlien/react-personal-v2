@@ -12,28 +12,28 @@ export const amazonClone = {
     id: 'amazon__clone',
     image: 'tech.jpg',
     title: 'amazon-clone',
-    description: 'FIX DESCRIPTION',
+    description: 'Using react framework I cloned the amazon site. Adding items and removing items, and with stripe api doing fake payments.',
     languages: ["React.js", "Javascript", "Firebase"],
     githubLink: 'https://github.com/UndeadAlien/amazon-clone',
-    liveDemo: 'google.com',
+    liveDemo: 'https://clone-9b887.web.app/',
 }
 
 export const pokedex = {
     id: 'pokedex-js',
     image: 'tech.jpg',
     title: 'pokedex',
-    description: 'FIX DESCRIPTION',
-    languages: ["React.js", "Javascript", "PokeAPI"],
+    description: 'Display all pokemon in a clean and organized format. Stats displayed in a unique page, and with all abilites and information.',
+    languages: ["React.js", "Javascript", "PokeAPI", "Firebase"],
     githubLink: 'https://github.com/UndeadAlien/pokedex-js',
-    liveDemo: 'google.com',
+    liveDemo: 'https://pokedex-d114b.web.app/',
 }
 
 export const covidTracker = {
     id: 'covid-tracker-js',
     image: 'tech.jpg',
     title: 'covid-tracker-js',
-    description: 'FIX DESCRIPTION',
-    languages: ["React.js", "Javascript", "CovidAPI"],
+    description: 'https://github.com/UndeadAlien/covid-tracker-js',
+    languages: ["React.js", "Javascript", "CovidAPI", "Firebase"],
     githubLink: 'https://github.com/UndeadAlien/CoronaVirusTrackerJS',
-    liveDemo: 'google.com',
+    liveDemo: 'https://covid-tracker-js.web.app/',
 }

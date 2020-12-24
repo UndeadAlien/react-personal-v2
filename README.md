@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="" rel="noopener">
-</p>
-
-<h3 align="center">react-personal-v2</h3>
+<h1 align="center">react-personal-v2</h1>
 
 <div align="center">
 
@@ -27,6 +23,8 @@ This is a personal website built with React to display personal projects, and re
 ```
 
 ## 🎈 Usage <a name="usage"></a>
+
+Live <a href="https://react-personal-v2.web.app/">demo</a>
 
 - About Me
   - Information about me
