@@ -8,13 +8,10 @@ header {
     padding: 1em;
     align-items: center;
     justify-content: space-between;
-    // border: 1px solid rgba(0, 0, 0, .7);
-    // background:rgba(0, 0, 0, .3);
     background: #070024;
     position: sticky;
     top: 0;
     z-index: 1;
-
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
     img {
@@ -36,7 +33,6 @@ header {
 
         &:hover {
             cursor: pointer;
-
             color: #149651;
             border: 2px solid #fff;
         }
@@ -45,14 +41,14 @@ header {
     ul {
         display: flex;
 
+        
+
         li {
             padding: 1em;
 
-            &:active {
-                border-top: none;
-                border-left: none;
-                border-right: none;
-                border-bottom: 2px solid #149651;
+            &:hover {
+                border-bottom: 1px solid #149651;
+                transform: translateY(-2px);
             }
         }
 

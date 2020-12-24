@@ -57,11 +57,10 @@ header ul li {
   padding: 1em;
 }
 
-header ul li:active {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 2px solid #149651;
+header ul li:hover {
+  border-bottom: 1px solid #149651;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
 
 header ul li p {
