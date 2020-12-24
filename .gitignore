@@ -33,3 +33,9 @@ firebase.json
 .github/workflows
 
 /index.js
+
+#Scss
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
