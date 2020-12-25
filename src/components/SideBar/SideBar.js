@@ -10,10 +10,10 @@ const SideBar = () => {
         <>
             <div className="sidebar__container left">
                 <ul>
-                    <li><a href="#"><SiCodewars /></a></li>
-                    <li><a href="#"><FiGithub /></a></li>
-                    <li><a href="#"><FiLinkedin /></a></li>
-                    <li><a href="#"><SiHackerrank /></a></li>
+                    <li><a href="https://github.com/UndeadAlien"><FiGithub /></a></li>
+                    <li><a href="https://www.linkedin.com/in/hello-connor/"><FiLinkedin /></a></li>
+                    <li><a href="https://www.codewars.com/users/UndeadAlien"><SiCodewars /></a></li>
+                    <li><a href="https://www.hackerrank.com/UndeadAlien"><SiHackerrank /></a></li>
                 </ul>
             </div>
 
