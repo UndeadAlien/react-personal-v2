@@ -1,69 +1,83 @@
-@media screen and (max-width: 1200px) {
-  .wrapper {
-    max-width: 85%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  header .navbar__logo {
+/* < 345 width is not supported yet */
+@media (max-width: 345px) {
+  body {
     display: none;
   }
-  .project__container {
-    border: 1px solid #149651;
+}
+
+@media (max-width: 445px) {
+  .project__splitter .left__half {
+    display: none;
   }
-  .project__container .right__half {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
+  .project__splitter .left__half .image {
+    display: none;
   }
-  .wrapper {
-    max-width: 80%;
+  .project__splitter .right__half .project__description {
+    display: none;
+  }
+  .project__splitter .right__half .project__languages {
+    display: none;
+  }
+  /* Footer */
+  .header__creator p {
+    overflow: hidden;
   }
 }
 
-@media screen and (max-width: 586px) {
+@media (max-width: 599px) {
+  /* Global */
+  .wrapper {
+    width: 70%;
+  }
+  /* Navbar */
   header {
     display: none;
   }
   .mobile__navbar {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: fixed;
-    top: 0;
-    left: 1em;
-    font-size: 2.5em;
+    left: 1rem;
+    font-size: 1.5em;
     cursor: pointer;
   }
-  .project__container {
-    border: 1px solid yellow;
-  }
-  .project__container .right__half {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
-    background-image: url("../../Projects/img/projects.jpg");
-    color: white;
-    background-size: 100% 100%;
-  }
-  .project__container .right__half .project__links ul li a {
-    color: white;
-  }
-  .project__container .image {
-    display: none;
-  }
-  .wrapper {
-    max-width: 75%;
-  }
-}
-
-@media screen and (max-width: 375px) {
+  /* About Section */
   .left {
     left: 1em;
   }
   .right {
     right: 1em;
   }
-  .name {
-    margin-top: 75%;
+  .about__content {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  .about__content .profile__picture {
+    margin-bottom: 1rem;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  /* Footer */
+  .header__creator p {
+    font-size: .7rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    width: 80%;
+  }
+  .about__content .profile__picture {
+    max-height: 13rem;
+    max-width: 25rem;
+  }
+  .project__header:after {
+    width: 35%;
+  }
+  .project__header:before {
+    width: 35%;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

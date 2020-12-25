@@ -8,7 +8,7 @@ const About = () => {
         <>
             <div className="about__container" id='about'>
                 <div className="wrapper">
-                    <div className="project__header"><h1>About Me</h1></div>
+                    <div className="project__header"><h1>About</h1></div>
                     <div className="about__content">
                         <div className="about__information">
                             <p>Hello! I'm Connor from Chicago, IL.</p>

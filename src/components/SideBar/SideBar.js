@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaBars } from 'react-icons/fa'
 import { FiLinkedin, FiGithub } from 'react-icons/fi'
 import { SiHackerrank, SiCodewars } from 'react-icons/si'
 
@@ -10,10 +9,10 @@ const SideBar = () => {
         <>
             <div className="sidebar__container left">
                 <ul>
-                    <li><a href="https://github.com/UndeadAlien"><FiGithub /></a></li>
-                    <li><a href="https://www.linkedin.com/in/hello-connor/"><FiLinkedin /></a></li>
-                    <li><a href="https://www.codewars.com/users/UndeadAlien"><SiCodewars /></a></li>
-                    <li><a href="https://www.hackerrank.com/UndeadAlien"><SiHackerrank /></a></li>
+                    <li><a href="https://github.com/UndeadAlien" target="_blank"><FiGithub /></a></li>
+                    <li><a href="https://www.linkedin.com/in/hello-connor/" target="_blank"><FiLinkedin /></a></li>
+                    <li><a href="https://www.codewars.com/users/UndeadAlien" target="_blank"><SiCodewars /></a></li>
+                    <li><a href="https://www.hackerrank.com/UndeadAlien" target="_blank"><SiHackerrank /></a></li>
                 </ul>
             </div>
 

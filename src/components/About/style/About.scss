@@ -1,6 +1,5 @@
 .about__container {
-    height: 50vh;
-
+    min-height: 100vh;
     margin-bottom: 15rem;
 }
 
@@ -22,7 +21,7 @@
     background-blend-mode: multiply;
     transition: all 0.3s ease-in-out;
 
-    flex: 35%;
+    flex: 25%;
 
     &:hover {
         transition: all 0.3s ease-in-out;

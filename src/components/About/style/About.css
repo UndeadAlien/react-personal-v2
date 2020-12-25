@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .about__container {
-  height: 50vh;
+  min-height: 100vh;
   margin-bottom: 15rem;
 }
 
@@ -25,9 +25,9 @@
   background-blend-mode: multiply;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  -webkit-box-flex: 35%;
-      -ms-flex: 35%;
-          flex: 35%;
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
 }
 
 .profile__picture:hover {

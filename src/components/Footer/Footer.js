@@ -14,7 +14,8 @@ const Footer = () => {
                         </div>
 
                         <div className="github__repo__count">
-                            <p><GoRepo /></p>
+                            <p><GoRepo />{/* Todo: #ofRepos */}</p>
+                            
                         </div>
                     </div>
                 </div>

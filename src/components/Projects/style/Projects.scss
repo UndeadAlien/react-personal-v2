@@ -11,7 +11,7 @@
         margin: 0 auto;
         background-color: #fff;
         position: absolute;
-        right: 15%;
+        right: 0;
         top: 50%;
     }
 
@@ -23,9 +23,13 @@
         margin: 0 auto;
         background-color: #fff;
         position: absolute;
-        left: 15%;
+        left: 0;
         top: 50%;
     }
+}
+
+.ulti__container {
+    min-height: 100vh;
 }
 
 .project__container {
