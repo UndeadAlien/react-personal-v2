@@ -32,8 +32,8 @@ export const covidTracker = {
     id: 'covid-tracker-js',
     image: 'covid_snapshot.png',
     title: 'covid-tracker-js',
-    description: 'Using CovidAPI displays cases and recovered by countries',
-    languages: ["React.js", "Javascript", "CovidAPI", "Firebase"],
+    description: 'Using CovidAPI displays active cases, recovered and death by countries',
+    languages: ["React.js", "CovidAPI", "Firebase", "MaterialUI"],
     githubLink: 'https://github.com/UndeadAlien/CoronaVirusTrackerJS',
     liveDemo: 'https://covid-tracker-js.web.app/',
 }
