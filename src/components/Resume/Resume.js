@@ -1,9 +1,10 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa';
-import { Link } from 'react-scroll';
-import './style/Resume.css'
-
 import { CgArrowLeftR } from 'react-icons/cg'
+
+import { Link as LinkR } from 'react-router-dom'
+
+import './style/Resume.css'
 
 const Resume = () => {
     return (
@@ -17,7 +18,7 @@ const Resume = () => {
                 <nav>
                     <ul>
                         <li>
-                            <a href="/" className="go__back"><CgArrowLeftR /></a>
+                            <LinkR to="/" className="go__back"><CgArrowLeftR /></LinkR>
                         </li>
                     </ul>
                 </nav>

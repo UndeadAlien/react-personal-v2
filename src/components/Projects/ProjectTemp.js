@@ -10,7 +10,7 @@ const ProjectTemp = ({ id, image, title, description, languages, githubLink, liv
                 <div className="project__container">
                     <div className="project__splitter">
                         <div className="left__half">
-                            <div className="image" style={{backgroundImage: `url('/images/project-images/${image}')`}}></div>
+                            <div className="image" style={{backgroundImage: `url('/images/snapshots/${image}')`}}></div>
                         </div>
 
                         <div className="right__half">
@@ -32,8 +32,8 @@ const ProjectTemp = ({ id, image, title, description, languages, githubLink, liv
 
                             <div className="project__links">
                                 <ul>
-                                    <li><a href={githubLink} target="_blank"><FaGithub /></a></li>
-                                    <li><a href={liveDemo} target="_blank"><FaExternalLinkAlt /></a></li>
+                                    <li><a href={githubLink} target="_blank" rel="noreferrer"><FaGithub /></a></li>
+                                    <li><a href={liveDemo} target="_blank" rel="noreferrer"><FaExternalLinkAlt /></a></li>
                                 </ul>
                             </div>
                         </div>

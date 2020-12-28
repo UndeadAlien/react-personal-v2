@@ -1,6 +1,6 @@
 export const personalV2 = {
     id: 'personal__site__v2',
-    image: 'tech.jpg',
+    image: 'personal_snapshot.png',
     title: 'react-personal-v2',
     description: 'This is a personal website built with React to display personal projects, and resume. Showing my web development skill set through my resume and deployed site.',
     languages: ["React.js", "Javascript", "Firebase"],
@@ -10,7 +10,7 @@ export const personalV2 = {
 
 export const amazonClone = {
     id: 'amazon__clone',
-    image: 'tech.jpg',
+    image: 'amazon_snapshot.png',
     title: 'amazon-clone',
     description: 'Using react framework I cloned the amazon site. Adding items and removing items, and with stripe api doing fake payments.',
     languages: ["React.js", "Javascript", "Firebase"],
@@ -20,7 +20,7 @@ export const amazonClone = {
 
 export const pokedex = {
     id: 'pokedex-js',
-    image: 'tech.jpg',
+    image: 'pokedex_snapshot.png',
     title: 'pokedex',
     description: 'Display all pokemon in a clean and organized format. Stats displayed in a unique page, and with all abilites and information.',
     languages: ["React.js", "Javascript", "PokeAPI", "Firebase"],
@@ -30,7 +30,7 @@ export const pokedex = {
 
 export const covidTracker = {
     id: 'covid-tracker-js',
-    image: 'tech.jpg',
+    image: 'covid_snapshot.png',
     title: 'covid-tracker-js',
     description: 'Using CovidAPI displays cases and recovered by countries',
     languages: ["React.js", "Javascript", "CovidAPI", "Firebase"],

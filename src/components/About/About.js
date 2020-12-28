@@ -1,8 +1,6 @@
 import React from 'react'
 import './style/About.css'
 
-import { RiArrowRightSLine } from 'react-icons/ri'
-
 const About = () => {
     return (
         <>

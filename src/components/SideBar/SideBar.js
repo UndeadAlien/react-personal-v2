@@ -9,10 +9,10 @@ const SideBar = () => {
         <>
             <div className="sidebar__container left">
                 <ul>
-                    <li><a href="https://github.com/UndeadAlien" target="_blank"><FiGithub /></a></li>
-                    <li><a href="https://www.linkedin.com/in/hello-connor/" target="_blank"><FiLinkedin /></a></li>
-                    <li><a href="https://www.codewars.com/users/UndeadAlien" target="_blank"><SiCodewars /></a></li>
-                    <li><a href="https://www.hackerrank.com/UndeadAlien" target="_blank"><SiHackerrank /></a></li>
+                    <li><a href="https://github.com/UndeadAlien" target="_blank" rel="noreferrer"><FiGithub /></a></li>
+                    <li><a href="https://www.linkedin.com/in/hello-connor/" target="_blank" rel="noreferrer"><FiLinkedin /></a></li>
+                    <li><a href="https://www.codewars.com/users/UndeadAlien" target="_blank" rel="noreferrer"><SiCodewars /></a></li>
+                    <li><a href="https://www.hackerrank.com/UndeadAlien" target="_blank" rel="noreferrer"><SiHackerrank /></a></li>
                 </ul>
             </div>
 

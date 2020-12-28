@@ -1,23 +1,22 @@
 import React from 'react'
-import { FaBars } from 'react-icons/fa';
 import { Link as LinkS } from 'react-scroll';
 import { Link as LinkR } from 'react-router-dom';
-import './style/NavBar.css'
+
+import './style/NavBarStyle/NavBar.css'
+import MobileNavBar from './MobileNavBar';
 
 const NavBar = () => {
 
     return (
         <>
-            <div className="mobile__navbar">
-                <p><FaBars /></p>
-            </div>
-
             <header>
                 <LinkS activeClass="active" to="hero" spy={true} smooth={true}>
                     <div className="navbar__logo">
                         <span>C</span>
                     </div>
                 </LinkS>
+
+                {/* <MobileNavBar /> */}
 
                 <nav>
                     <ul>
@@ -30,7 +29,7 @@ const NavBar = () => {
                                 exact="true"
                                 offset={-150}
                             >
-                                <a href="#">About</a>
+                                About
                             </LinkS>
                         </li>
                         <li>
@@ -42,7 +41,7 @@ const NavBar = () => {
                                 exact="true"
                                 offset={-150}
                             >
-                                <a href="#">Projects</a>
+                                Projects
                             </LinkS>
                         </li>
                         <li>
@@ -54,7 +53,7 @@ const NavBar = () => {
                                 exact="true"
                                 offset={-150}
                             >
-                                <a href="#">Contact</a>
+                                Contacts
                             </LinkS>
                         </li>
                     </ul>
